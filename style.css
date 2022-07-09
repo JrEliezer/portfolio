@@ -205,16 +205,28 @@
     
 
   }
-  .dados.h3{
-    
+.dados-info{
+  display: flex;
+
+  align-items: center;
+  
+  border: solid 1px red;
+}
+  .imgs {
+    display: flex;
   }
-  .dados img{
+  .imgs h4{
+    display: flex;
+    align-items: center;
+   }
+  .dados .folder{
     padding: 30px;
   }
-img{
+  img{
   display: block;
   max-width: 100%;
 }
+
   .recents{
     display: flex;
     background-color: var(--bg-cards);
